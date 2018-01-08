@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">StackExchange</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="privacy_tems"><![CDATA[Privacy & Tems]]></string>
+    <string name="type_the_text">Type the text</string>
+    <string name="rq_get">Get</string>
+    <string name="logo">Logo</string>
+    <string name="log_in">LOG IN</string>
+    <string name="start_using_without_an_account">Start using without an account…</string>
+    <string name="sign_up_sttBar">Signup</string>
+    <string name="log_in_sttBar">Log in</string>
+    <string name="sign_in_with_google">Sign in with google</string>
+    <string name="log_in_using_stack_exchange">Log in using Stack Exchange</string>
+    <string name="log_in_using_another_openid">Log in using another OpenID</string>
+    <string name="by_signing_up_you_agree_to_the_privacy_policy_and_terms_of_service"><html>By signing up , you agree to the <a href="https://www.google.com">Privacy policy</a> and <a href="https://www.facebook.com">terms of service</a>.</html></string>
+    <string name="create_stack_exchange_account">create stack exchange account</string>
+    <string name="email_address">Email Address</string>
+    <string name="your_name_optional">Your Name(optional)</string>
+    <string name="password">Password</string>
+    <string name="password_again">Password (again)</string>
+    <string name="Privacy_policy">Privacy policy</string>
+    <string name="terms_of_service">terms of service</string>
+    <string name="google">https://www.google.com.vn</string>
+    <string name="facebook">https://www.facebook.com.vn</string>
+    <string name="sign_up_using_stack_exchange">Sign up using Stack Exchange</string>
+    <string name="questions">Questions</string>
+    <string name="stack_overflow">Stack Overflow</string>
+    <string-array name="spiner_item">
+        <item>Questions</item>
+        <item>Tags</item>
+        <item>Users</item>
+    </string-array>
+
+</resources>

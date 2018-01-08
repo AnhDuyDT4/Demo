@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background">
+    <include
+        layout="@layout/action_bar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="7dp"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:hint="@string/email_address"
+            android:background="#fff"
+            android:id="@+id/fragSignUpDentail_etEmail"
+            android:layout_marginBottom="12dp"
+            android:textColorHint="#9E9E9E"
+            android:textColor="#000"
+            android:paddingLeft="10dp"
+            tools:ignore="RtlHardcoded,RtlSymmetry,TextFields" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:hint="@string/your_name_optional"
+            android:background="#fff"
+            android:id="@+id/fragSignUpDentail_etName"
+            android:layout_marginBottom="12dp"
+            android:textColorHint="#9E9E9E"
+            android:textColor="#000"
+            android:paddingLeft="10dp"
+            tools:ignore="RtlHardcoded,RtlSymmetry" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:hint="@string/password"
+            android:background="#fff"
+            android:id="@+id/fragSignUpDentail_etpassword"
+            android:layout_marginBottom="12dp"
+            android:textColorHint="#9E9E9E"
+            android:textColor="#000"
+            android:paddingLeft="10dp"
+            tools:ignore="RtlHardcoded,RtlSymmetry,TextFields" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:hint="@string/password_again"
+            android:background="#fff"
+            android:id="@+id/fragSignUpDentail_etpasswordrp"
+            android:layout_marginBottom="12dp"
+            android:textColorHint="#9E9E9E"
+            android:textColor="#000"
+            android:paddingLeft="10dp"
+            tools:ignore="RtlHardcoded,RtlSymmetry" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="5dp"
+            android:padding="5dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#4A6FB1"
+            android:id="@+id/fragSignUpDentail_btnCreate"
+            android:text="@string/create_stack_exchange_account" />
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

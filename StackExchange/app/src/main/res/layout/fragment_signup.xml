@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background"
+    android:id="@+id/fragSignUp_flContent">
+    <include
+        layout="@layout/action_bar"
+        android:id="@+id/fragSignUp_actionbar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="100"
+        android:padding="10dp"
+        android:layout_below="@id/fragSignUp_actionbar">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:src="@drawable/splash_screen_text"
+            android:padding="10dp"
+            android:layout_weight="25"
+            tools:ignore="ContentDescription,InefficientWeight" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:padding="2dp"
+            android:background="@drawable/background_button"
+            android:layout_marginBottom="5dp">
+            <ImageView
+
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:src="@drawable/common_google_signin_btn_icon_light_normal"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sign_in_with_google"
+                android:textSize="15sp"
+                android:textColor="#6F6F6F"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp"
+                tools:ignore="RtlHardcoded" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/background_button"
+            android:padding="5dp"
+            android:id="@+id/frag_llSignupDetail"
+            android:layout_marginTop="15dp">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/stackexchange_logo"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sign_up_using_stack_exchange"
+                android:textSize="15sp"
+                android:textColor="#326EB6"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:layout_marginRight="20dp"
+                tools:ignore="RtlHardcoded" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragSignUp_tvLink"
+        android:text=""
+        android:textAlignment="center"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"/>
+
+</RelativeLayout>

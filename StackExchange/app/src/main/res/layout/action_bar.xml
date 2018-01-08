@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:orientation="horizontal"
+    android:background="#324B77">
+    <ImageView
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="22dp"
+        android:src="@drawable/ic_action_up"
+        android:rotation="-90"
+        android:id="@+id/frag_imgBack"
+        android:layout_gravity="left|center_vertical"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/actionbar_tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="35dp"
+        android:padding="5dp"
+
+        android:text="@string/sign_up_sttBar"
+        android:textColor="#fff"
+        android:textSize="17sp"
+        tools:ignore="RtlHardcoded" />
+</LinearLayout>

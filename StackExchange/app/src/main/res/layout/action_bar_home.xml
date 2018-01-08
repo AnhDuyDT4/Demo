@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:orientation="horizontal"
+    android:background="@color/color_action_bar"
+    android:id="@+id/actbarHome_llActionBar">
+    <ImageView
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="18dp"
+        android:src="@drawable/ic_menu_white"
+        android:id="@+id/actbarHome_imgMenuBar"
+        android:layout_gravity="center_vertical"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="35dp"
+        android:id="@+id/actbarHome_rlTitle">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stack_overflow"
+            android:textSize="19dp"
+            android:textColor="#fff"
+            android:id="@+id/actbarHome_tvTitle"
+            tools:ignore="NotSibling,SpUsage"
+            />
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="@string/questions"
+            android:id="@+id/actbarHome_tvChose"
+            android:layout_below="@id/actbarHome_tvTitle"
+            android:textColor="@color/color_ActionBarChose"/>
+        <ImageView
+            android:id="@+id/actbarHome_spChose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/img_spinner"
+            android:layout_toRightOf="@id/actbarHome_tvTitle"
+            tools:ignore="RtlCompat,RtlHardcoded"
+            />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/actbarHome_imgAskQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/img_ask_question"/>
+
+</LinearLayout>
+
