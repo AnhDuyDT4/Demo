@@ -1,4 +1,4 @@
-package duydt4.demoapp;
+package duydt4.base;
 
 import org.junit.Test;
 

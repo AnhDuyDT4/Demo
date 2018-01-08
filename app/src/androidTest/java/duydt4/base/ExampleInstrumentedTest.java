@@ -1,4 +1,4 @@
-package duydt4.demoapp;
+package duydt4.base;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
